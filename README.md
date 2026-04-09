@@ -47,6 +47,7 @@ Token Mappers: Configuring Protocol Mappers to ensure group memberships are incl
 
 Figure 7: Defined Realm Roles for the organization.
 
+
 <img width="1227" height="607" alt="client role" src="https://github.com/user-attachments/assets/62d5ad70-b857-41b0-81dd-1bd2ee08e04e" />
 
 Figure 8: Client-specific roles assigned to nexus-portal.
