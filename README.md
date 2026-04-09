@@ -85,7 +85,6 @@ Access Verification: Successful extraction of groups in the application landing 
 Figure 13: Active user account overview.
 
 <img width="956" height="447" alt="roles mapped" src="https://github.com/user-attachments/assets/ad189cc9-9262-45fd-b5cd-85f1bb139cc3" />
-
 Figure 14: User role mapping and assignment overview.
 <img width="959" height="296" alt="accessing group sucessfull (1)" src="https://github.com/user-attachments/assets/9efd7411-318d-406c-a153-3e506a6d7051" />
 
