@@ -5,8 +5,8 @@ Subject: Full-Scale IAM & Zero Trust Implementation
 
 1. Phase 1: Infrastructure & Identity Core
 Establishing the foundational environment and the identity hierarchy for the "Infotact" organization.
-Deployment: Dockerized Keycloak with a production-ready PostgreSQL backend.
-Realm Management: Creation of the organizational realm and administrative security settings.
+Deployment: Dockerized Keycloak with a production-ready PostgreSQL backend.
+Realm Management: Creation of the organizational realm and administrative security settings.
 
 <img width="956" height="323" alt="keylock dockerized" src="https://github.com/user-attachments/assets/310383e9-76e8-43a0-87cb-4391d91b593c" />
 
@@ -22,8 +22,8 @@ Figure 3: Admin Console Authentication configuration.
 
 2. Phase 2: Client Registration & SSO Integration
 Integrating the web portal into the identity provider using the OpenID Connect (OIDC) protocol.
-Client Management: Configuration of nexus-portal with specific redirect URIs (localhost:5000).
-SSO Validation: Verifying the handshake between the Python Flask backend and the Keycloak server.
+Client Management: Configuration of nexus-portal with specific redirect URIs (localhost:5000).
+SSO Validation: Verifying the handshake between the Python Flask backend and the Keycloak server.
 
 <img width="1396" height="235" alt="clients" src="https://github.com/user-attachments/assets/aae35e25-fdb7-484c-8272-dff59f26f2ed" />
 
@@ -39,8 +39,8 @@ Figure 6: Redirection flow to Client Authentication port
 
 3. Phase 3: RBAC & Advanced Group Mapping
 Implementing granular access control through Realm Roles, Client Roles, and Group memberships.
-Role Hierarchy: Establishing roles (ADMIN, DEVELOPER, VIEWER) at both Realm and Client levels.
-Token Mappers: Configuring Protocol Mappers to ensure group memberships are included in the JWT (Access Token).
+Role Hierarchy: Establishing roles (ADMIN, DEVELOPER, VIEWER) at both Realm and Client levels.
+Token Mappers: Configuring Protocol Mappers to ensure group memberships are included in the JWT (Access Token).
 
 <img width="953" height="477" alt="rules created" src="https://github.com/user-attachments/assets/f28ab9da-d49a-4dc0-89aa-5ee691e42be7" />
 
@@ -63,8 +63,8 @@ Figure 10: Protocol Mapper configuration for Group membership claims.
 
 4. Phase 4: Security Hardening & MFA
 Enforcing Zero Trust principles through Multi-Factor Authentication and Brute Force protection.
-Identity Verification: Implementation of TOTP (Time-based One-Time Password) via mobile authenticators.
-Policy Enforcement: Activation of account lockout policies to prevent credential stuffing.
+Identity Verification: Implementation of TOTP (Time-based One-Time Password) via mobile authenticators.
+Policy Enforcement: Activation of account lockout policies to prevent credential stuffing.
 
 <img width="959" height="482" alt="mobile authentication otp enabled" src="https://github.com/user-attachments/assets/0929d7aa-5ec9-47ed-b27e-29dc8a35416b" />
 
@@ -77,8 +77,8 @@ Figure 12: Brute Force detection and security defense settings.
 
 5. Phase 5: Testing & Final Results
 Validation of the end-to-end flow, from login to role-specific content access.
-User Provisioning: Verifying active users and their mapped roles.
-Access Verification: Successful extraction of groups in the application landing page.
+User Provisioning: Verifying active users and their mapped roles.
+Access Verification: Successful extraction of groups in the application landing page.
 
 <img width="959" height="455" alt="user created" src="https://github.com/user-attachments/assets/002e14df-415e-4d79-9b0c-3a9e0350f9ab" />
 
