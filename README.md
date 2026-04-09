@@ -38,6 +38,7 @@ Figure 5: Python Flask server handling authentication redirects.
 Figure 6: Redirection flow to Client Authentication port
 
 3. Phase 3: RBAC & Advanced Group Mapping
+4. 
 Implementing granular access control through Realm Roles, Client Roles, and Group memberships.
 Role Hierarchy: Establishing roles (ADMIN, DEVELOPER, VIEWER) at both Realm and Client levels.
 Token Mappers: Configuring Protocol Mappers to ensure group memberships are included in the JWT (Access Token).
